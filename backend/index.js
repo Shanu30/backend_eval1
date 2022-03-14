@@ -3,24 +3,19 @@ const app = express();
 const port = 8800;
 
 let users = require("./users.json");
+const cors = require('cors');
+app.use(cors());
 app.use(express.json());
 
-const req_api = (req,resp,next) =>{
-    req.city = "mumbai";
-    next();
-}
 
-app.get("/",req_api, (req, resp)=>{
-    const obj ={
-        "api_city_is":req.city,
-        "users": users
-    }
-    resp.json(obj)
+
+app.get("/users", (req, resp)=>{
+    resp.json(users)
 
 })
 app.post("/users", (req, resp) => {
     //console.log(req.body);
-    books.push(req.body)
+    users.push(req.body)
     resp.json(users)
 })
 app.delete("/users/:id", (req, resp)=> {
