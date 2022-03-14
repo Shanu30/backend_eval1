@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "floor": "54-998-3350",
+    "street": "7399",
+    "landmark": "Latrena",
+    "area": "Nita",
+    "city": "Cassin, Olson and Schowalter",
+    "pincode": "729223"
+  }, {
+    "id": 2,
+    "floor": "18-426-9364",
+    "street": "6",
+    "landmark": "Mort",
+    "area": "Eben",
+    "city": "Bergnaum-O'Keefe",
+    "pincode": "283648"
+  }, {
+    "id": 3,
+    "floor": "77-637-1707",
+    "street": "7050",
+    "landmark": "Silvana",
+    "area": "Steffi",
+    "city": "Weber-Hilll",
+    "pincode": "254162"
+  }]
+  
